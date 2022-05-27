@@ -1,5 +1,11 @@
 import './App.css';
-import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+// import Component from './components/3-14.PropTypes/Component';
+// import Example from './components/3-11.Portal/Example';
+// import Example from './components/3-10.Context/Example';
+import Memo from './components/3-8.Memoization/Memo';
+// import Button from './components/3-7.HOC/Button';
+// import Input from './components/3-7.HOC/Input';
+// import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 // import Dialog from './components/3-6.Composition2/Dialog';
 // import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 // import Reducer from './components/3-3.Hooks/Reducer';
@@ -18,8 +24,13 @@ import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 function App() {
   return (
     <div className="App">
+      {/* <Component /> */}
+      {/* <Example /> */}
+      <Memo />
+      {/* <Input />
+      <Button />
       <ThankyouDialog />
-      {/* <Dialog />
+      <Dialog />
       <WelcomeDialog />
       <Reducer />
       <State />
